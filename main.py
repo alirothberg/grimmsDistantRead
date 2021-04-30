@@ -89,7 +89,7 @@ def compileDictionary(wordList, nounList, adjSet):
                         d[word][wordList[i + j]] = 0
                     d[word][wordList[i + j]] += 1
 
-    for i in range(3, len(wordList) - 3):
+    for i in range(2, len(wordList) - 2):
         word = wordList[i]
         if word in nounList:
             if word not in d:
@@ -100,7 +100,7 @@ def compileDictionary(wordList, nounList, adjSet):
                         d[word][wordList[i + j]] = 0
                     d[word][wordList[i + j]] += 1
 
-    for i in range(len(wordList) - 3, len(wordList)):
+    for i in range(len(wordList) - 2, len(wordList)):
         word = wordList[i]
         if word in nounList:
             if word not in d:
