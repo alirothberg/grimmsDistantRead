@@ -9,7 +9,8 @@ def initialSituation0(charGender, charName, typeOfHero, charType, objPronoun):
     else:
         livedIn = "cottage"
 
-    return "There was once a " + charGender + " named " + charName + " the " + charType + " who lived in a " + livedIn + " with " + objPronoun + " family.\n"
+    return "There was once a " + charGender + " named " + charName + " the " + charType + " who lived in a " + \
+           livedIn + " with " + objPronoun + " family.\n"
 
 def absentations1(charGender, possPronoun):
     # Someone leaves or dies. Usually a parent.
@@ -21,7 +22,8 @@ def interdiction2(charName, objNoNo, possPronoun):
 
 def violation3(charName, objNoNo, pronoun):
     # Someone breaks the big rule. This could be good or bad as seen by the examples above.
-    return charName + " was bored and curious one day and found the " + objNoNo + " hiding on a tall shelf.\n" + pronoun + " picked it up and dropped it, but put it back thinking no one saw.\n"
+    return charName + " was bored and curious one day and found the " + objNoNo + " hiding on a tall shelf.\n" + \
+           pronoun + " picked it up and dropped it, but put it back thinking no one saw.\n"
 
 def reconnaissance4():
     # The villain spies on the hero or the hero learns about the villain.
@@ -37,7 +39,8 @@ def trickery6(charName, objNoNo):
 
 def complicity7(charName, objNoNo, pronoun):
     # The hero is forced, tricked or influenced by magic to do something bad. There are bad consequences.
-    return charName + " had no other choice but to get " + objNoNo + " and pretend nothing happened.\n" + "When the stepmother asked if " + pronoun + " knew where the " + objNoNo + " is, " + charName + " says " + pronoun + " never saw it.\n"
+    return charName + " had no other choice but to get " + objNoNo + " and pretend nothing happened.\n" + \
+           "When the stepmother asked if " + pronoun + " knew where the " + objNoNo + " is, " + charName + " says " + pronoun + " never saw it.\n"
 
 def villainy8(charName, charType):
     # Baddy McBadson does something really evil, normally stealing the Macguffin or kidnapping the princess.
@@ -53,11 +56,13 @@ def beginningCounteraction10(charName, possPronoun):
 
 def departure11(charName, charType, pronoun):
     #They... depart. Voluntarily or not.
-    return charName + " the " + charType + " ran away in the middle of the night that night.\n" + pronoun[0].upper() + pronoun[1:] + " wandered and wandered until finding a magical hut.\n"
+    return charName + " the " + charType + " ran away in the middle of the night that night.\n" + pronoun[0].upper() + \
+           pronoun[1:] + " wandered and wandered until finding a magical hut.\n"
 
 def firstDonor12(charName, helper):
     # function of donor - The hero run into a donor or a magic dude. This character can be The Obi-Wan, a mysterious beggar or a "None Shall Pass" kind of character. They may have to pass a test. The hero may have to fight the donor. But on the bright side, the donor may have a magical object to help them on their quest.
-    return "Out of the magical hut came a " + helper + " who gave " + charName + " a special feather. As long as " + charName + " had the feather, nothing bad could happen.\n"
+    return "Out of the magical hut came a " + helper + " who gave " + charName + " a special feather. As long as " + \
+           charName + " had the feather, nothing bad could happen.\n"
 
 '''
 def protagonistReaction():
