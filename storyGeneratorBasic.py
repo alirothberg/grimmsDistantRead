@@ -62,7 +62,10 @@ def departure11(charName, charType, pronoun):
            pronoun[1:] + " wandered and wandered until finding a magical hut.\n"
 
 def firstDonor12(charName, helper):
-    # function of donor - The hero run into a donor or a magic dude. This character can be The Obi-Wan, a mysterious beggar or a "None Shall Pass" kind of character. They may have to pass a test. The hero may have to fight the donor. But on the bright side, the donor may have a magical object to help them on their quest.
+    # function of donor - The hero run into a donor or a magic dude.
+    # This character can be The Obi-Wan, a mysterious beggar or a "None Shall Pass" kind of character.
+    # They may have to pass a test. The hero may have to fight the donor. But on the bright side,
+    # the donor may have a magical object to help them on their quest.
     return "Out of the magical hut came a " + helper + " who gave " + charName + " a special feather. As long as " + \
            charName + " had the feather, nothing bad could happen.\n"
 
