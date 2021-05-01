@@ -101,6 +101,7 @@ def theWedding():
 '''
 
 def composeFunction(lst):
+    #Lets user choose which functions to include by inputting list (here we have mostly essential functions and only one option
     ret = ''
     if 0 in lst:
         ret += initialSituation0(charGender, charName, typeOfHero, charType, objPronoun)
@@ -131,6 +132,7 @@ def composeFunction(lst):
     return ret
 
 if __name__ == '__main__':
+    # prompts user for inputs to their story
     charGender = input("main character--boy or girl? ")
     if charGender == "boy":
         pronoun = "he"
@@ -152,6 +154,7 @@ if __name__ == '__main__':
     objNoNo = input("special object in home? ")
     #lstElems = input("Write any number of numbers from 0-12 with spaces in the middle ")
     #lst = [int(elem) for elem in lstElems.split()]
+    # puts all functions into story because story not complex enough to account for different iterations
     lst = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     print(lst)
     print(composeFunction(lst))
