@@ -22,8 +22,8 @@ def interdiction2(charName, objNoNo, possPronoun):
 
 def violation3(charName, objNoNo, pronoun):
     # Someone breaks the big rule. This could be good or bad as seen by the examples above.
-    return charName + " was bored and curious one day and found the " + objNoNo + " hiding on a tall shelf.\n" + \
-           pronoun + " picked it up and dropped it, but put it back thinking no one saw.\n"
+    return charName + " was bored and curious one day and found the " + objNoNo + " hiding on a tall shelf.\n" \
+           + pronoun + " picked it up and dropped it, but put it back thinking no one saw.\n"
 
 def reconnaissance4():
     # The villain spies on the hero or the hero learns about the villain.
@@ -40,7 +40,8 @@ def trickery6(charName, objNoNo):
 def complicity7(charName, objNoNo, pronoun):
     # The hero is forced, tricked or influenced by magic to do something bad. There are bad consequences.
     return charName + " had no other choice but to get " + objNoNo + " and pretend nothing happened.\n" + \
-           "When the stepmother asked if " + pronoun + " knew where the " + objNoNo + " is, " + charName + " says " + pronoun + " never saw it.\n"
+           "When the stepmother asked if " + pronoun + " knew where the " + objNoNo + " is, " + charName + \
+           " says " + pronoun + " never saw it.\n"
 
 def villainy8(charName, charType):
     # Baddy McBadson does something really evil, normally stealing the Macguffin or kidnapping the princess.
@@ -52,7 +53,8 @@ def meditation9(charName, pronoun):
 
 def beginningCounteraction10(charName, possPronoun):
     # The heroes choose to fight back.
-    return charName + " vowed to come back and convince " + possPronoun + " father of " + possPronoun + " stepmother's evilness.\n"
+    return charName + " vowed to come back and convince " + possPronoun + " father of " + possPronoun + \
+           " stepmother's evilness.\n"
 
 def departure11(charName, charType, pronoun):
     #They... depart. Voluntarily or not.
