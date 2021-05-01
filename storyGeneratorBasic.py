@@ -17,11 +17,11 @@ def absentations1(charGender, possPronoun):
 
 def interdiction2(charName, objNoNo, possPronoun):
     # A big rule is set up. Don't touch the spinning wheel. You can't go to the ball. You know the drill.
-    return charName + " is told never to touch " + possPronoun + " stepmother's special " + objNoNo + ".\n"
+    return charName + " was told never to touch " + possPronoun + " stepmother's special " + objNoNo + ".\n"
 
 def violation3(charName, objNoNo, pronoun):
     # Someone breaks the big rule. This could be good or bad as seen by the examples above.
-    return charName + " is bored and curious one day and finds the " + objNoNo + " hiding on a tall shelf.\n" + pronoun + " picks it up and drops it, but puts it back thinking no one saw.\n"
+    return charName + " was bored and curious one day and found the " + objNoNo + " hiding on a tall shelf.\n" + pronoun + " picked it up and dropped it, but put it back thinking no one saw.\n"
 
 def reconnaissance4():
     # The villain spies on the hero or the hero learns about the villain.
@@ -37,27 +37,27 @@ def trickery6(charName, objNoNo):
 
 def complicity7(charName, objNoNo, pronoun):
     # The hero is forced, tricked or influenced by magic to do something bad. There are bad consequences.
-    return charName + " had no other choice but to get " + objNoNo + " and pretend nothing happened.\n" + "When the stepmother asked if " + pronoun + " knew where the " + objNoNo + " is, " + charName + "says " + pronoun + "never seen it.\n"
+    return charName + " had no other choice but to get " + objNoNo + " and pretend nothing happened.\n" + "When the stepmother asked if " + pronoun + " knew where the " + objNoNo + " is, " + charName + " says " + pronoun + " never saw it.\n"
 
 def villainy8(charName, charType):
     # Baddy McBadson does something really evil, normally stealing the Macguffin or kidnapping the princess.
-    return "The stepmother says that she will kill " + charName + " the " + charType + " for her disobedience.\n"
+    return "The stepmother said that she would kill " + charName + " the " + charType + " for her disobedience.\n"
 
 def meditation9(charName, pronoun):
     # The goodies figure out a plan and get ready to set out on their quest.
-    return charName + "goes to think and realizes that " + pronoun + "must leave immediately.\n"
+    return charName + " went to think and realized that " + pronoun + "must leave immediately.\n"
 
 def beginningCounteraction10(charName, possPronoun):
     # The heroes choose to fight back.
-    return charName + " vows to come back and convince " + possPronoun + " father of " + possPronoun + " stepmother's evilness.\n"
+    return charName + " vowed to come back and convince " + possPronoun + " father of " + possPronoun + " stepmother's evilness.\n"
 
 def departure11(charName, charType, pronoun):
     #They... depart. Voluntarily or not.
-    return charName + " the " + charType + " runs away in the middle of the night that night.\n" + pronoun[0].upper() + pronoun[1:] + " wanders and wanders until finding a magical hut.\n"
+    return charName + " the " + charType + " ran away in the middle of the night that night.\n" + pronoun[0].upper() + pronoun[1:] + " wandered and wandered until finding a magical hut.\n"
 
 def firstDonor12(charName, helper):
     # function of donor - The hero run into a donor or a magic dude. This character can be The Obi-Wan, a mysterious beggar or a "None Shall Pass" kind of character. They may have to pass a test. The hero may have to fight the donor. But on the bright side, the donor may have a magical object to help them on their quest.
-    return "Out of the magical hut comes a " + helper + " who gives " + charName + " a special feather. As long as " + charName + " has the feather, nothing bad can happen.\n"
+    return "Out of the magical hut came a " + helper + " who gave " + charName + " a special feather. As long as " + charName + " had the feather, nothing bad could happen.\n"
 
 '''
 def protagonistReaction():
